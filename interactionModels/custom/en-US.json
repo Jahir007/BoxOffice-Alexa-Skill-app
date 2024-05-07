@@ -1,0 +1,90 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "change me",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "MovieRecommendations",
+          "slots": [
+            {
+              "name": "MovieGenre",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "samples": [
+            "Can you recommend a good  movie",
+            "I\u0027m in the mood for a  movie what do you suggest",
+            "What\u0027s a good movie to watch"
+          ]
+        },
+        {
+          "name": "CelebrityNews",
+          "slots": [
+            {
+              "name": "CelebrityName",
+              "type": "AMAZON.Person"
+            }
+          ],
+          "samples": [
+            "What\u0027s the latest news about Celebrity",
+            "Can you give me some gossip about CelebrityName",
+            "What\u0027s going on with Celebrity"
+          ]
+        },
+        {
+          "name": "BoxOfficeUpdates",
+          "slots": [
+            {
+              "name": "MovieName",
+              "type": "AMAZON.Movie"
+            },
+            {
+              "name": "MovieGenre",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "samples": [
+            "What\u0027s the top-grossing movie of the week",
+            "What\u0027s the current box office status",
+            "How much did the latest  movie make in its opening weekend"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
